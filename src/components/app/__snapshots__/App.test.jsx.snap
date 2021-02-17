@@ -4,22 +4,25 @@ exports[`App component renders App 1`] = `
 <DocumentFragment>
   <button
     data-testid="before"
+    disabled=""
   >
     undo
   </button>
   <button
     data-testid="after"
+    disabled=""
   >
     redo
   </button>
   <input
     data-testid="current"
+    id="current"
     type="color"
-    value="#FF0000"
+    value="#00FF00"
   />
   <div
     data-testid="display"
-    style="background-color: rgb(255, 0, 0); width: 10rem; height: 10rem;"
+    style="background-color: rgb(0, 255, 0); width: 10rem; height: 10rem;"
   />
 </DocumentFragment>
 `;
